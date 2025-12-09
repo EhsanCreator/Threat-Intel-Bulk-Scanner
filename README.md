@@ -36,13 +36,13 @@ Best for deep analysis when VirusTotal data is required.
 2. Open the desired script (fast_scanner_ha_kt.py or comprehensive_scanner_vt_kt.py).
 3. Insert your API Keys in the configuration section at the top of the file:
    ```bash
-OPENTIP_API_KEY = "YOUR_KEY"
-HA_API_KEY = "YOUR_KEY"
-#etc...
+   OPENTIP_API_KEY = "YOUR_KEY"
+   HA_API_KEY = "YOUR_KEY"
+   #etc...
 
 4. Run the script:
    ```bash
-python fast_scanner_ha_kt.py
+   python fast_scanner_ha_kt.py
 
 5. The script will automatically update your Excel file with new columns containing the scan results.
 
